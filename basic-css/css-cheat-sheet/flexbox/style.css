@@ -1,0 +1,47 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.flex-container {
+    height: 500px;
+    display: flex;
+    background-color: #f4f4f4;
+    /* Specifies axis whether to respect ROW or COLUMN */
+    /* flex-direction: row;  */
+    /* Main-axis */
+    /* justify-content: center;  */
+    /* Cross-axis */
+    /* align-items: center;     */
+}
+
+.item {
+    flex: 1 0;
+    height: 100px;
+    background: #254de4;
+    color: #fff;
+    margin: 10px;
+
+    /* Center Item labels inside */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.item:nth-of-type(1) {
+    
+}
+
+.item:nth-of-type(2) {
+    
+}
+
+.item:nth-of-type(3) {
+    
+}
+
