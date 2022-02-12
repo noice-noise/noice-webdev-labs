@@ -5,43 +5,123 @@
 }
 
 body {
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    background-color: #a1c3ff;
+    color: #333;
 }
 
-.flex-container {
-    height: 500px;
-    display: flex;
-    background-color: #f4f4f4;
-    /* Specifies axis whether to respect ROW or COLUMN */
-    /* flex-direction: row;  */
-    /* Main-axis */
-    /* justify-content: center;  */
-    /* Cross-axis */
-    /* align-items: center;     */
+img {
+    max-width: 100%;
 }
 
-.item {
-    flex: 1 0;
-    height: 100px;
-    background: #254de4;
+h1,
+h2 {
+    margin-bottom: 14px;
+}
+
+.container {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 0 30px;
+}
+
+.navbar {
+    background: #3474e6;
     color: #fff;
-    margin: 10px;
+    height: 60px;
+}
 
-    /* Center Item labels inside */
+.navbar .logo {
+    font-size: x-large;
+    font-weight: bold;
+}
+
+.navbar .container {
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+}
+
+.navbar a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.navbar a:hover {
+    color: lightblue;
+}
+
+.navbar ul {
+    display: flex;
+}
+
+.navbar ul li {
+    margin-left: 20px;
+}
+
+.header {
+    background-color: #0151cc;
+    color: #fff;
+    min-height: 400px;
+}
+
+.header h1 {
+    font-size: 3rem;
+    font-weight: bold;
+    line-height: 1.0;
+}
+
+.header .container {
+    display: flex;
+    justify-content: space-between;
     align-items: center;
 }
 
-.item:nth-of-type(1) {
-    
+.header .container .title,
+.header .container img {
+    margin: 20px;
 }
 
-.item:nth-of-type(2) {
-    
+header img {
+    max-width: 400px;
 }
 
-.item:nth-of-type(3) {
-    
+ul {
+    list-style: none;
 }
 
+.boxes .container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.box {
+    flex: 1;
+    background: #0a51cc;
+    color: #fff;
+    border-radius: 10px;
+    margin: 20px 10px;
+    box-shadow: 0 3px 5px rgba(0, 0, 0, 0.6);
+    padding: 15px 20px;
+}
+
+.box i {
+    margin-right: 10px;
+}
+
+@media(max-width: 768px) {
+    .header .container {
+        flex-direction: column;
+        padding-top: 20px;
+        text-align: center;
+    }
+
+    .boxes .container {
+        display: block;
+    }
+}
