@@ -1,0 +1,68 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: black;
+    color: white;
+}
+
+.container {
+    width: 50%;
+    margin: 50px auto;
+    padding: 10px 20px;
+    border-radius: 20px;
+}
+
+.title {
+    text-align: center;
+}
+
+.title h1 {
+    text-transform: uppercase;
+    letter-spacing: 5px;
+}
+
+#survey-form input[type="text"],
+#survey-form input[type="email"],
+#survey-form input[type="number"],
+#survey-form select,
+#survey-form textarea, button {
+    width: 100%;
+    padding: 0.5em;
+    font-size: 1.02em;
+    border-radius: 4px;
+}
+
+button {
+    background-color: #7e3ace;
+    color: white;
+}
+
+button:hover {
+    opacity: 80%;
+}
+
+#survey-form input[type="checkbox"],
+#survey-form input[type="radio"] {
+    margin: 0 10px;
+}
+
+#survey-form .form-group {
+    padding-bottom: 5px;
+}
+
+#survey-form .form-group label {
+    font-size: 1.25em;
+    padding: 10px 0;
+    display: block;
+}
+
+footer {
+    text-align: center;
+    margin: 40px 0;
+}
+
+@media screen and (max-width: 600px) {
+    .container {
+        width: 90%;
+    }
+}
