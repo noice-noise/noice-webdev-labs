@@ -1,0 +1,148 @@
+* {
+    margin: 0;
+    padding: 5px;
+    box-sizing: border-box;
+    font-family: 'Poppins', Helvetica, sans-serif;
+    background-color: var(--bg-color);
+}
+
+body {
+
+    font-size: 16px;
+    line-height: 1.5;
+    --tx-color: #2d2d2d;
+    --bg-color: #ffffff;
+
+    --brand-color: #e97600;
+    --brand-accent: #f0a355;
+    --bg-color-card: #e7e8eb;
+
+    margin: 100px auto;
+    width: 80%;
+}
+
+a {
+    text-decoration: none;
+    color: var(--link);
+    --link: var(--tx-color);
+    --link-visited: var(--tx-color);
+    --link-hover: var(--brand-color);
+    --link-active: var(--tx-color);
+}
+
+a:visited {
+    color: var(--link-visited);
+}
+
+a:hover {
+    color: var(--link-hover);
+}
+
+a:active {
+    color: var(--link-active);
+}
+
+
+#header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+
+.nav-bar {
+    display: flex;
+    justify-content: space-between;
+
+    padding: 1.5em;
+
+    background-color: var(--bg-color);
+    overflow: hidden;
+}
+
+.nav-bar ul {
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-bar li {
+    margin-right: 20px;
+    list-style: none;
+}
+
+.nav-bar a {
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.videos {
+    text-align: center;
+}
+
+.videos h1 {
+    margin-top: 50px;
+    font-size: 90px;
+    font-weight: 600;
+    letter-spacing: 0;
+    line-height: 0.9;
+}
+
+.videos a {
+    display: block;
+    width: 50%;
+    font-weight: bold;
+    font-size: x-large;
+    margin: auto;
+    text-align: center;
+    border: 5px #2d2d2d solid;
+}
+
+.videos a:hover {
+    background-color: var(--brand-color);
+    color: var(--bg-color);
+}
+
+.form-control {
+    margin: auto;
+    text-align: center;
+    width: 100%;
+    background-color: var(--bg-color-card);
+}
+
+.images .container {
+    display: flex;
+}
+
+.images h2 {
+    text-align: center;
+}
+
+.images .card {
+    border: 2px #000 solid;
+    border-radius: 15px;
+    margin: 10px;
+    text-align: center;
+    flex: 1;
+    padding: 20px 10px;
+}
+
+footer {
+    margin-top: 200px;
+    text-align: center;
+}
+
+
+@media (max-width: 768px) {
+    * {
+        padding: 2px;
+    }
+    
+    body {
+        margin-top: 100px;
+    }
+
+    .container {
+        flex-direction: column;
+        margin-top: 20px;
+    }
+}

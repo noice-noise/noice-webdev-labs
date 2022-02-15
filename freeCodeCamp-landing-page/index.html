@@ -1,0 +1,90 @@
+<!--
+    CodePen submission with test passing: 
+        https://codepen.io/noice-noise/pen/bGYovwv
+
+    Written for freeCodeCamp's Responsive Web Design Course: 
+        https://www.freecodecamp.org/learn/responsive-web-design/responsive-web-design-projects/build-a-product-landing-page
+
+    Other reference:
+        https://codepen.io/freeCodeCamp/full/RKRbwL
+
+    This code is for practice, reference, and review only. 
+    Let's observe Code of Conduct and Academic Honesty.
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/style.css">
+
+    <!-- Fontawesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous"/>
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,700;0,900;1,400;1,700;1,900&display=swap" rel="stylesheet">
+
+    <title>Noice Furnitures</title>
+</head>
+<body>
+    <header id="header">
+        <div class="container">
+            <nav class="nav-bar" id="nav-bar">
+                <div class="logo">
+                    <a href="#"><img src="img/logo.png" alt="Noice Furnitures" id="header-img"></a>
+                </div>
+                <ul class="nav">
+                    <a href="#images" class="nav-link"><li>Images</li></a>
+                    <a href="#videos" class="nav-link"><li>Videos</li></a>
+                    <a href="#footer" class="nav-link"><li>About</li></a>
+                </ul>  
+            </nav>
+        </div>
+    </header>
+
+    <div class="container" id="main-content">
+        <section>
+            <form id="form" action="https://www.freecodecamp.com/email-submit" class="form-control">
+                <input type="email" id="email" placeholder="Enter your email address" name="email">
+                <input id="submit" type="submit" value="Get started">
+            </form>
+        </section>
+
+        <section id="videos" class="videos">
+            <h1>The Noice Furnitures</h1>
+            <video src="video/video.mp4" id="video">
+                Video Not Supported.
+            </video>
+            <a href="#">ORDER NOW</a>
+        </section>
+
+        <section id="images" class="images">
+            <div class="container">
+                <div class="card">
+                    <h2>Premium</h2>
+                    <p>Quality furnitures from Noice people. Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere, repudiandae. Assumenda expedita voluptas sequi excepturi ratione iure officiis neque dignissimos.</p>
+                </div>
+                <div class="card">
+                   <h2>Classic</h2> 
+                   <p>Classic furnitures from Ancient people. Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis praesentium dolores cumque ut. A, obcaecati quia facere sint harum eaque.</p>
+                </div>
+                <div class="card">
+                   <h2>Eco-friendly</h2> 
+                   <p>We serve and protecc. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dignissimos architecto, suscipit quae et neque quidem quas enim illum libero totam.</p>
+                </div>
+            </div>
+        </section>
+
+        <footer id="footer">
+            <h4>Made with 💗 & 🩸</h4>
+            <a href="https://github.com/noice-noise">noice-noise</a>
+        </footer>
+    </div>
+</body>
+</html>
