@@ -12,6 +12,7 @@ body {
     width: 70%;
     margin-left: 20%;
     border-radius: 20px;
+    overflow: hidden;
 }
 
 .logo {
@@ -72,8 +73,9 @@ hr {
     border: 1px black solid;
 }
 
-@media (max-width: 1000px) {
+@media (max-width: 768px) {
     body {
+        background-color: red;
         font-size: 12px;
     }
 }
