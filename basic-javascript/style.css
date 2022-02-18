@@ -1,51 +1,51 @@
 * {
-    margin: 0;
-    padding: 10px;
-    box-sizing: border-box;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    border-radius: 5px;
-    border-width: 1px;
+  margin: 0;
+  padding: 10px;
+  box-sizing: border-box;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  border-radius: 5px;
+  border-width: 1px;
 }
 
 body {
-    margin: 0 auto 0px auto;
-    width: 100%;
+  margin: 0 auto 0px auto;
+  width: 100%;
 }
 
 .container {
-    margin: 20px auto;
-    width: 20%;
-    background-color: #f5f6f7;
-    border-radius: 10px;
+  margin: 20px auto;
+  width: 20%;
+  background-color: #f5f6f7;
+  border-radius: 10px;
 }
 
 .form {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 .form label {
-    color: #006df6;
-    font-weight: bold;
-    display: block;
+  color: #006df6;
+  font-weight: bold;
+  display: block;
 }
 
 .form input {
-    margin-bottom: 10px;
-    width: 100%;
+  margin-bottom: 10px;
+  width: 100%;
 }
 
 .btn {
-    width: 100%;
-    color: #f5f6f7;
-    background-color: #006df6;
+  width: 100%;
+  color: #f5f6f7;
+  background-color: #006df6;
 }
 
 .btn:hover {
-    opacity: 80%;
+  opacity: 80%;
 }
 
 .error {
-    background-color: red;
+  background-color: red;
 }
