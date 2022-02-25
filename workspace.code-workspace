@@ -1,0 +1,16 @@
+{
+  "folders": [
+	{
+		"path": "..\\noice-noise.github.io"
+	},
+	{
+		"path": "."
+	},
+	{
+		"path": "..\\tailwind"
+	}
+],
+  "settings": {
+    "liveServer.settings.multiRootWorkspaceName": "noice-webdev-labs"
+  }
+}
